@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #ac1717;
+    padding: 20px;
+    text-align: center;
+}
+
+
+div > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+    position absolute searches for element with position relative
+    and bases its own position of that element
+*/
+
+/*
+    ik raad je gwoon aan om een 2 uur video te kijken
+*/
