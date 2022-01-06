@@ -99,7 +99,7 @@ h3 {
 
 .video {
     position: absolute;
-    top: 50%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -107,4 +107,22 @@ h3 {
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+h5 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    color: white
+}
+
+h6 {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    color: white
 }
