@@ -1,27 +1,110 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+* { 
     padding: 0;
     margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: #ac1717;
+    background-color: rgb(12, 12, 12);
     padding: 20px;
     text-align: center;
 }
 
+.main-div > img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-div > img {
+    border-radius: 24px;
+}
+body { 
+    background-color: rgb(25, 25, 25);
+}
+
+p {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    font-size: large;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    text-align: center ;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+a {
+    font-size: large;
+}
+
+.images-page-link {
+    display: block;
+    position: relative;
+
+    border-radius: 24px;
+
+    width: 7em;
+    height: 2em;
+
+    margin: 1em;
+
+    background-color: white;
+}
+.images-page-link > * {
+    width: fit-content;
+
+    color: black;
+
+    text-decoration: none;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/*
-    position absolute searches for element with position relative
-    and bases its own position of that element
-*/
+br { 
+    text-align: left;
+}
 
-/*
-    ik raad je gwoon aan om een 2 uur video te kijken
-*/
+h3 {
+    color: rgb(25, 25, 25);
+}
+.images-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+}
+
+.images-showcase > img {
+    margin: 1em;
+
+    width: 45vw;
+
+    color: white;
+
+    border-radius: 24px;
+
+}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
